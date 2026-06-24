@@ -1,0 +1,42 @@
+{
+  "project_name": "تطبيق إدارة حسابات للمشاريع الصغيرة مع متابعة النفقات والمداخيل",
+  "project_type": "accounting_management",
+  "color_palette": "slate-900 and indigo-500",
+  "modules": [
+    "projects",
+    "accounts",
+    "expenses",
+    "incomes"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "project_list",
+    "account_list",
+    "expense_list",
+    "income_list",
+    "project_details",
+    "account_details"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login"
+    ],
+    "user": [
+      "project_list",
+      "account_list",
+      "expense_list",
+      "income_list"
+    ],
+    "admin": [
+      "project_list",
+      "account_list",
+      "expense_list",
+      "income_list",
+      "project_details",
+      "account_details"
+    ]
+  }
+}
